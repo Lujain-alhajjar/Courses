@@ -1,122 +1,121 @@
-let programming=document.querySelector(".programming");
-let design=document.querySelector(".design");
-let webDevelopment=document.querySelector(".web-development");
-let projectManagement=document.querySelector(".project-management");
-let nursing=document.querySelector(".nursing");
-let languages=document.querySelector(".languages");
-let accounting=document.querySelector(".accounting");
-let algorithms=document.querySelector(".algorithms");
+let crash=document.querySelector(".crash");
+let crowdsource=document.querySelector(".crowdsource");
+let fullstack=document.querySelector(".fullstack");
+let git=document.querySelector(".git");
+let react=document.querySelector(".react");
+let swag=document.querySelector(".swag");
 
-programming.addEventListener("click",()=>{
-    let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+
+crash.addEventListener("click",()=>{
+    let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/8jLOx1hD3_o";
+    video.src="https://www.youtube.com/embed/3TZYvr0hOlw";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
     let p = document .createElement("a");
     p.classList="text-node";
     p.appendChild(text);
-    p.href="https://www.youtube.com/@freecodecamp";
+    p.href="https://www.youtube.com/watch?v=3TZYvr0hOlw&list=PLnL12rqLPel8JbtL6QghbCyoXd1_W0M5t";
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
     X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })
         
 })
-design.addEventListener("click",()=>{
-    let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+crowdsource.addEventListener("click",()=>{
+    let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/kDt2kUaqgRM";
+    video.src="https://www.youtube.com/embed/30YCds-aXaw";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
     let p = document .createElement("a");
     p.classList="text-node";
     p.appendChild(text);
-    p.href="https://www.youtube.com/watch?v=kDt2kUaqgRM&list=PL0lNJEnwfVVPs_aO2XpFLII51_fnX-w6l";
+    p.href="https://www.youtube.com/watch?v=30YCds-aXaw&list=PLnL12rqLPel9-o-xTLmTsGBy8emUGlNdO";
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
      X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })   
 })
-webDevelopment.addEventListener("click",()=>{
-    let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+fullstack.addEventListener("click",()=>{
+    let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/G3e-cpL7ofc";
+    video.src="https://www.youtube.com/embed/eYydZioPZLM";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
     let p = document .createElement("a");
     p.classList="text-node";
     p.appendChild(text);
-    p.href="https://www.youtube.com/@SuperSimpleDev";
+    p.href="https://www.youtube.com/watch?v=eYydZioPZLM&list=PLnL12rqLPel9IQapo2zUER20HyevlCOu7";
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
      X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })
 })
-projectManagement.addEventListener("click",()=>{
-      let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+git.addEventListener("click",()=>{
+      let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/hsMNZd3ssqM";
+    video.src="https://www.youtube.com/embed/wr9kXA0zBws";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
     let p = document .createElement("a");
     p.classList="text-node";
     p.appendChild(text);
-    p.href="https://www.youtube.com/watch?v=hsMNZd3ssqM&list=PLcKLrs4w3zy3q1lMWreyaLixtC2SPoraI";
+    p.href="https://www.youtube.com/watch?v=wr9kXA0zBws&list=PLnL12rqLPel9mHV04vwD7jMZ8merI6Hyf";
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
      X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })
 })
-nursing.addEventListener("click",()=>{
-      let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+react.addEventListener("click",()=>{
+      let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/PRqNaFjREPY";
+    video.src="https://www.youtube.com/embed/R9vD0uhQJv8";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
@@ -127,84 +126,34 @@ nursing.addEventListener("click",()=>{
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
      X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })
 })
-languages.addEventListener("click",()=>{
-      let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
+swag.addEventListener("click",()=>{
+      let crashPage=document.createElement("div");
+    crashPage.classList="mainpage";
     let X=document.createElement("i");
     X.classList="fa-regular fa-circle-xmark";
     let insideDiv=document.createElement("div");
     insideDiv.classList="inside-div";
     let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/qYsHLUAlH_8";
+    video.src="https://www.youtube.com/embed/1i_57OEE1zU";
     video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
     video.classList="video";
     let text=document.createTextNode("Click here for more videos on YouTube");
     let p = document .createElement("a");
     p.classList="text-node";
     p.appendChild(text);
-    p.href="https://www.youtube.com/@languagelearningcourses6656";
+    p.href="https://www.youtube.com/watch?v=1i_57OEE1zU&list=PLnL12rqLPel9nbsi5Rk4JCcm7MG5rYPG2";
     insideDiv.appendChild(video);
     insideDiv.appendChild(p);
     insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
+    crashPage.append(insideDiv);
+    document.body.appendChild(crashPage);
      X.addEventListener("click",()=>{
-        programmingPage.remove();
-    })
-})
-accounting.addEventListener("click",()=>{
-      let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
-    let X=document.createElement("i");
-    X.classList="fa-regular fa-circle-xmark";
-    let insideDiv=document.createElement("div");
-    insideDiv.classList="inside-div";
-    let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/VYNTBWBqncU";
-    video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    video.classList="video";
-    let text=document.createTextNode("Click here for more videos on YouTube");
-    let p = document .createElement("a");
-    p.classList="text-node";
-    p.appendChild(text);
-    p.href="https://www.youtube.com/watch?v=VYNTBWBqncU&list=PLmHVyfmcRKywV8Bk6euT02xxtv8YVDkZs";
-    insideDiv.appendChild(video);
-    insideDiv.appendChild(p);
-    insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
-     X.addEventListener("click",()=>{
-        programmingPage.remove();
-    })
-})
-algorithms.addEventListener("click",()=>{
-      let programmingPage=document.createElement("div");
-    programmingPage.classList="mainpage";
-    let X=document.createElement("i");
-    X.classList="fa-regular fa-circle-xmark";
-    let insideDiv=document.createElement("div");
-    insideDiv.classList="inside-div";
-    let video = document.createElement("iframe");
-    video.src="https://www.youtube.com/embed/ZA-tUyM_y7s";
-    video.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    video.classList="video";
-    let text=document.createTextNode("Click here for more videos on YouTube");
-    let p = document .createElement("a");
-    p.classList="text-node";
-    p.appendChild(text);
-    p.href="https://www.youtube.com/watch?v=ZA-tUyM_y7s&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY";
-    insideDiv.appendChild(video);
-    insideDiv.appendChild(p);
-    insideDiv.append(X);
-    programmingPage.append(insideDiv);
-    document.body.appendChild(programmingPage);
-     X.addEventListener("click",()=>{
-        programmingPage.remove();
+        crashPage.remove();
     })
 })
